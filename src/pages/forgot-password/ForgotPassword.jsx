@@ -4,8 +4,9 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import HeroBg from "../../assets/heroBg.png";
 import WaveImage from "../../assets/waveShape.png";
+import ForgotPasswordForm from "../../components/ForgotPasswordForm";
 
-const SignIn = () => {
+const ForgotPassword = () => {
   return (
     <>
       <Header />
@@ -16,14 +17,14 @@ const SignIn = () => {
         <img
           src={WaveImage}
           alt="Wave Shape"
-          className="absolute bottom-0 left-0 w-full h-[61%]"
+          className="absolute bottom-0 left-0 w-full h-[70%]"
         />
 
-        <SignInForm />
+        <ForgotPasswordForm />
       </section>
       <Footer />
     </>
   );
 };
 
-export default SignIn;
+export default ForgotPassword;

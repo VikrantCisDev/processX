@@ -1,11 +1,11 @@
-import React from "react";
-import SignInForm from "../../components/SignInForm";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import React from 'react'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 import HeroBg from "../../assets/heroBg.png";
 import WaveImage from "../../assets/waveShape.png";
+import CreateAccountForm from '../../components/CreateAccountForm';
 
-const SignIn = () => {
+const CreateAccount = () => {
   return (
     <>
       <Header />
@@ -19,11 +19,11 @@ const SignIn = () => {
           className="absolute bottom-0 left-0 w-full h-[61%]"
         />
 
-        <SignInForm />
+        <CreateAccountForm />
       </section>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default SignIn;
+export default CreateAccount
